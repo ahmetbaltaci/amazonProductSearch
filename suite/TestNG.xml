@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name=" Test">
+
+    <test name="Ürün Arama -1">
+        <parameter name="product" value="macbook air"/>
+        <classes>
+            <class name="testCases.ProductSearchTestExecution"/>
+        </classes>
+    </test>
+
+    <test name="Ürün Arama -2">
+        <parameter name="product" value="macbook pro"/>
+        <classes>
+            <class name="testCases.ProductSearchTestExecution"/>
+        </classes>
+    </test>
+
+    <test name="Fiyat Karşılaştırma Testigra" junit="true" >
+        <classes>
+            <class name="testCases.MatchProductPriceTestExecution"/>
+        </classes>
+    </test>
+
+</suite>
