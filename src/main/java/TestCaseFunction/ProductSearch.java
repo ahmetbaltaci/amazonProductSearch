@@ -12,9 +12,6 @@ import static setUp.ReadJsonFile.readJsonFile;
  * Created by ahmetbaltaci on 21.09.2018.
  */
 
-/****
- * Search items and assert value in detail page
- ****/
 
 public class ProductSearch extends BasePage {
 
