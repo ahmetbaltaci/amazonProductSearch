@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.List;
-
 /**
  * Created by ahmetbaltaci on 21.09.2018.
  */
@@ -25,13 +23,13 @@ public class BasePage {
         return driver.findElement(locator);
     }
 
-    public boolean isDisplayed(By locator){
+    protected boolean isDisplayed(By locator){
         boolean isDisplayedStatus = false;
         try {
              getElement(locator).isDisplayed();
              isDisplayedStatus = true;
         }catch (Exception e){
-            System.out.println("Element is not enable");
+            System.out.println("Element is not displayed");
         }
         return isDisplayedStatus;
     }

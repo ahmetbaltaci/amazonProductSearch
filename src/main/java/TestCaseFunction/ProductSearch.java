@@ -15,11 +15,10 @@ import static setUp.ReadJsonFile.readJsonFile;
 
 public class ProductSearch extends BasePage {
 
-    public By productName = By.xpath("//li[@id='result_0']//h2");
-    /**
-     * Html Resources
-     **/
 
+    /** Html Resources**/
+
+    private By productName = By.xpath("//li[@id='result_0']//h2");
     private By searchInput = By.id("twotabsearchtextbox");
     private By searchIcon = By.xpath("//input[@value='Go']");
     private By currency = By.xpath("//li[@id='result_0']//*[@class='sx-price-currency']");
@@ -29,6 +28,7 @@ public class ProductSearch extends BasePage {
     private By productTitleDetail = By.id("productTitle");
     private By productPriceDetail = By.id("priceblock_ourprice");
     private By retailPriceDetail = By.className("a-text-strike");
+
     /** Getter Setter Variable **/
 
     private String firstItemName = null;

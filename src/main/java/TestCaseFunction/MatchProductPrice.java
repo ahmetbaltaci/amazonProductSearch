@@ -16,6 +16,7 @@ public class MatchProductPrice extends BasePage {
     private By currency = By.xpath("//li[@id='result_0']//*[@class='sx-price-currency']");
     private By priceWhole = By.xpath("//li[@id='result_0']//*[@class='sx-price-whole']");
     private By priceFractional = By.xpath("//li[@id='result_0']//*[@class='sx-price-fractional']");
+
     /** Getter Setter Variable **/
 
     private String secondItemPrice = null;
