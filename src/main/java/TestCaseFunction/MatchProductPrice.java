@@ -11,9 +11,7 @@ import setUp.BasePage;
 
 public class MatchProductPrice extends BasePage {
 
-    /**
-     * Html Resources
-     **/
+    /** Html Resources **/
 
     private By currency = By.xpath("//li[@id='result_0']//*[@class='sx-price-currency']");
     private By priceWhole = By.xpath("//li[@id='result_0']//*[@class='sx-price-whole']");
