@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bd54593c-a4fa-4953-97d5-d81d1d2d0ad1" name="Default" comment="refactor">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java" afterPath="$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" afterPath="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/setUp/BasePage.java" afterPath="$PROJECT_DIR$/src/main/java/setUp/BasePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" afterPath="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" />
     </list>
     <ignored path="com.amazon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,15 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/setUp/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
               <folding>
                 <element signature="docComment;class#BasePage#0" expanded="false" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductSearch.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProductSearch.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="420">
+              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
                 <element signature="method#searchItem#0;class#ProductSearch#0" expanded="false" />
                 <element signature="method#itemSearchInfo#0;class#ProductSearch#0" expanded="false" />
@@ -539,9 +538,9 @@
         <option value="$PROJECT_DIR$/src/test/java/testCases/MatchProductPriceTestExecution.java" />
         <option value="$PROJECT_DIR$/suite/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/setUp/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" />
       </list>
     </option>
   </component>
@@ -1390,7 +1389,7 @@
       <updated>1537518828472</updated>
       <workItem from="1537518832282" duration="7814000" />
       <workItem from="1537549366863" duration="11519000" />
-      <workItem from="1537560953368" duration="2563000" />
+      <workItem from="1537560953368" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1537605202304</created>
@@ -1420,7 +1419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537605462589</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor">
+      <created>1537606103305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537606103305</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1456,7 +1462,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21896000" />
+    <option name="totallyTimeSpent" value="22022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -1598,8 +1604,8 @@
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="docComment;class#BasePage#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1725,8 +1731,8 @@
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="docComment;class#BasePage#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1902,18 +1908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="method#searchItem#0;class#ProductSearch#0" expanded="false" />
-            <element signature="method#itemSearchInfo#0;class#ProductSearch#0" expanded="false" />
-            <element signature="method#detailPageAssert#0;class#ProductSearch#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1929,11 +1923,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/setUp/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
           <folding>
             <element signature="docComment;class#BasePage#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding>
+            <element signature="method#searchItem#0;class#ProductSearch#0" expanded="false" />
+            <element signature="method#itemSearchInfo#0;class#ProductSearch#0" expanded="false" />
+            <element signature="method#detailPageAssert#0;class#ProductSearch#0" expanded="false" />
           </folding>
         </state>
       </provider>

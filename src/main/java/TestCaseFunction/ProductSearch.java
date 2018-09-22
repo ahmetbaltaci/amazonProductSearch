@@ -89,7 +89,7 @@ public class ProductSearch extends BasePage {
 
     }
 
-    public void clickProduct() {
+    public void clickForDetailPage() {
         getElement(productName).click();
     }
 

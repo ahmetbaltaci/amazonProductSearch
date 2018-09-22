@@ -2,7 +2,6 @@ package testCases;
 
 import TestCaseFunction.ProductSearch;
 import listener.ListenerTestNG;
-
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import setUp.BaseTest;
@@ -22,7 +21,7 @@ public class ProductSearchTestExecution extends BaseTest {
         items.titleControl();
         items.searchItem("macbook air");
         items.itemSearchInfo();
-        items.clickProduct();
+        items.clickForDetailPage();
         items.detailPageAssert();
     }
 
