@@ -15,18 +15,13 @@ import static setUp.ReadJsonFile.readJsonFile;
 
 public class ProductSearch extends BasePage {
 
-    public ProductSearch(WebDriver driver) {
-        super(driver);
-    }
-
-
+    public By productName = By.xpath("//li[@id='result_0']//h2");
     /**
      * Html Resources
      **/
 
     private By searchInput = By.id("twotabsearchtextbox");
     private By searchIcon = By.xpath("//input[@value='Go']");
-    public  By productName = By.xpath("//li[@id='result_0']//h2");
     private By currency = By.xpath("//li[@id='result_0']//*[@class='sx-price-currency']");
     private By priceWhole = By.xpath("//li[@id='result_0']//*[@class='sx-price-whole']");
     private By priceFractional = By.xpath("//li[@id='result_0']//*[@class='sx-price-fractional']");
@@ -34,14 +29,15 @@ public class ProductSearch extends BasePage {
     private By productTitleDetail = By.id("productTitle");
     private By productPriceDetail = By.id("priceblock_ourprice");
     private By retailPriceDetail = By.className("a-text-strike");
-
-    /**
-     * Getter Setter Variable
-     **/
+    /** Getter Setter Variable **/
 
     private String firstItemName = null;
     private String firstItemPrice = null; //Retail Price
     private String firstItemLastPrice = null;
+
+    public ProductSearch(WebDriver driver) {
+        super(driver);
+    }
 
     private String getItemName() {
         return firstItemName;
@@ -67,9 +63,7 @@ public class ProductSearch extends BasePage {
         this.firstItemLastPrice = firstItemLastPrice;
     }
 
-    /**
-     * Test Case Functions
-     **/
+    /** Test Case Functions **/
 
     public boolean titleControl() {
         return readJsonFile("title").equals(driver.getTitle());

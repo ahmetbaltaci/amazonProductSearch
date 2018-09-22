@@ -14,10 +14,6 @@ import setUp.BasePage;
 
 public class MatchProductPrice extends BasePage {
 
-    public MatchProductPrice(WebDriver driver) {
-        super(driver);
-    }
-
     /**
      * Html Resources
      **/
@@ -25,13 +21,14 @@ public class MatchProductPrice extends BasePage {
     private By currency = By.xpath("//li[@id='result_0']//*[@class='sx-price-currency']");
     private By priceWhole = By.xpath("//li[@id='result_0']//*[@class='sx-price-whole']");
     private By priceFractional = By.xpath("//li[@id='result_0']//*[@class='sx-price-fractional']");
-
-    /**
-     * Getter Setter Variable
-     **/
+    /** Getter Setter Variable **/
 
     private String secondItemPrice = null;
     private String firstItemLastPrice = null;
+
+    public MatchProductPrice(WebDriver driver) {
+        super(driver);
+    }
 
     private String getSecondItemPrice() {
         return secondItemPrice;
@@ -49,9 +46,7 @@ public class MatchProductPrice extends BasePage {
         this.firstItemLastPrice = firstItemLastPrice;
     }
 
-    /**
-     * Test Case Functions
-     **/
+    /** Test Case Functions **/
 
     public void firstProductPrice(){
         setLastPrice(getElement(currency).getText() + getElement(priceWhole).getText() + "." + getElement(priceFractional).getText());
