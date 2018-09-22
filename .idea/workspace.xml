@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd54593c-a4fa-4953-97d5-d81d1d2d0ad1" name="Default" comment="refactor">
+    <list default="true" id="bd54593c-a4fa-4953-97d5-d81d1d2d0ad1" name="Default" comment="function name is changed">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" afterPath="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" afterPath="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suite/TestNG.xml" afterPath="$PROJECT_DIR$/suite/TestNG.xml" />
     </list>
     <ignored path="com.amazon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,18 +68,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatchProductPriceTestExecution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testCases/MatchProductPriceTestExecution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MatchProductPrice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,7 +122,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestNG.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/suite/TestNG.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding>
+                <element signature="n#test#0;n#suite#0;n#!!top" expanded="false" />
+                <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" expanded="false" />
+                <element signature="n#test#1;n#suite#0;n#!!top" expanded="false" />
+                <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" expanded="false" />
+                <element signature="n#test#2;n#suite#0;n#!!top" expanded="false" />
+                <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -536,11 +540,11 @@
         <option value="$PROJECT_DIR$/src/test/suit.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/MatchProductPriceTestExecution.java" />
-        <option value="$PROJECT_DIR$/suite/TestNG.xml" />
         <option value="$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestCaseFunction/MatchProductPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/setUp/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/TestCaseFunction/ProductSearch.java" />
+        <option value="$PROJECT_DIR$/suite/TestNG.xml" />
       </list>
     </option>
   </component>
@@ -1389,7 +1393,7 @@
       <updated>1537518828472</updated>
       <workItem from="1537518832282" duration="7814000" />
       <workItem from="1537549366863" duration="11519000" />
-      <workItem from="1537560953368" duration="2689000" />
+      <workItem from="1537560953368" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1537605202304</created>
@@ -1426,7 +1430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537606103305</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="function name is changed">
+      <created>1537607030312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537607030312</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1462,7 +1473,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22022000" />
+    <option name="totallyTimeSpent" value="22151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
@@ -1503,7 +1514,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="function name is changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="function name is changed" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1512,7 +1524,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java</url>
-          <line>25</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -1799,21 +1811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suite/TestNG.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#test#0;n#suite#0;n#!!top" expanded="false" />
-            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" expanded="false" />
-            <element signature="n#test#1;n#suite#0;n#!!top" expanded="false" />
-            <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" expanded="false" />
-            <element signature="n#test#2;n#suite#0;n#!!top" expanded="false" />
-            <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testCases/ProductSearchTestExecution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1940,6 +1937,21 @@
             <element signature="method#searchItem#0;class#ProductSearch#0" expanded="false" />
             <element signature="method#itemSearchInfo#0;class#ProductSearch#0" expanded="false" />
             <element signature="method#detailPageAssert#0;class#ProductSearch#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suite/TestNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="n#test#0;n#suite#0;n#!!top" expanded="false" />
+            <element signature="n#classes#0;n#test#0;n#suite#0;n#!!top" expanded="false" />
+            <element signature="n#test#1;n#suite#0;n#!!top" expanded="false" />
+            <element signature="n#classes#0;n#test#1;n#suite#0;n#!!top" expanded="false" />
+            <element signature="n#test#2;n#suite#0;n#!!top" expanded="false" />
+            <element signature="n#classes#0;n#test#2;n#suite#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

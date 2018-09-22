@@ -17,7 +17,7 @@
         </classes>
     </test>
 
-    <test name="Fiyat Karşılaştırma Testigra" junit="true" >
+    <test name="Fiyat Karşılaştırma Testi" junit="true" >
         <classes>
             <class name="testCases.MatchProductPriceTestExecution"/>
         </classes>
