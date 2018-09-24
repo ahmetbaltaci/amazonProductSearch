@@ -1,12 +1,11 @@
 package testCases;
 
-import TestCaseFunction.MatchProductPrice;
-import TestCaseFunction.ProductSearch;
-
 import listener.TestExecution;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import setUp.BaseTest;
+import testCaseFunction.MatchProductPrice;
+import testCaseFunction.ProductSearch;
 
 /**
  * Created by ahmetbaltaci on 21.09.2018.

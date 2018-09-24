@@ -1,10 +1,10 @@
 package testCases;
 
-import TestCaseFunction.ProductSearch;
 import listener.ListenerTestNG;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import setUp.BaseTest;
+import testCaseFunction.ProductSearch;
 
 
 /**
